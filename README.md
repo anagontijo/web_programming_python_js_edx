@@ -167,11 +167,27 @@ classe1, classe2 {
     font-family: verdana;
     font-size: 20px;
 }
+```
 
+Isso modifica as classes 1 e 2  de acordo com as definições dadas.
+
+```css
 classe subclasse {
+    color: cor;
+    text-align: alinhamento;
+    font-family: verdana;
+    font-size: 20px;
+}```
+
+Isso modifica todas as instâncias da subclasse associada a classe, independente do nível de dependencia da subclasse.
+
+```css
+classe > subclasse {
     color: cor;
     text-align: alinhamento;
     font-family: verdana;
     font-size: 20px;
 }
 ```
+
+Isso por sua vez modifica apenas a subclasse de classe imediatamente.
