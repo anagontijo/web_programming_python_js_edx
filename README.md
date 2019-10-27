@@ -200,3 +200,11 @@ classe[atributo=opcao] {
 ```
 
 Isso modifica tudo na classe especificada que seja do atributo dado (opcao).
+
+```CSS
+classe:pseudoclasse {
+    background-color: green;
+}
+```
+
+Isso modifica a aparência da classe quando está nessa pseudoclasse.
