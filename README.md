@@ -5,4 +5,6 @@
 ### 1.1 Git Add
 
 * Comando:
-    <code>git add file_path</code>
+    ```console
+    user@linux:~$ git add file_path
+    ```
