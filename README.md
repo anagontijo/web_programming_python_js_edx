@@ -161,7 +161,14 @@ Dentro do html é possível definir o estilo de exibição do html usando a tag 
 O padrão principal do css é:
 
 ```css
-classe {
+classe1, classe2 {
+    color: cor;
+    text-align: alinhamento;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+classe subclasse {
     color: cor;
     text-align: alinhamento;
     font-family: verdana;
