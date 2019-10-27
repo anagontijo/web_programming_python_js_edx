@@ -192,3 +192,11 @@ classe > subclasse {
 ```  
 
 Isso por sua vez modifica apenas a subclasse de classe imediatamente.
+
+```css
+classe[atributo=opcao] {
+    background-color: red;
+}
+```
+
+Isso modifica tudo na classe especificada que seja do atributo dado (opcao).
