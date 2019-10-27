@@ -122,9 +122,9 @@ Para se definir listas em _html_ é possível utilizar as opções __ul__ e __ol
 * Lista 1
 * Lista 2
 * Lista 3  
-Já OL designa _ordered list_, ou seja, lista ordenada. Usando OL cada um dos tópicos será enumerado:
-1 Lista I
-2 Lista II
+Já OL designa _ordered list_, ou seja, lista ordenada. Usando OL cada um dos tópicos será enumerado:  
+1 Lista I  
+2 Lista II  
 3 Lista III
 
 ### 2.2 CSS
