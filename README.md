@@ -116,6 +116,17 @@ List é um parâmetro de input que permite que um input de texto tenha opções 
 </body>
 ```
 
+#### 2.1.6 Listas
+
+Para se definir listas em _html_ é possível utilizar as opções __ul__ e __ol__. UL designa _unordered list_, ou seja, lista desordenada. Usando UL são feitos tópicos sem enumeração, como:
+* Lista 1
+* Lista 2
+* Lista 3
+Já OL designa _ordered list_, ou seja, lista ordenada. Usando OL cada um dos tópicos será enumerado:
+1 Lista I
+2 Lista II
+3 Lista III
+
 ### 2.2 CSS
 
 #### 2.2.1 CSS dentro de HTML
@@ -135,4 +146,17 @@ Dentro do html é possível definir o estilo de exibição do html usando a tag 
     <h1>Titulo grande</h1>
     <h2>Titulo menor</h2>
 </body>
+```
+
+#### 2.2.2 Padrões CSS
+
+O padrão principal do css é:
+
+```css
+classe {
+    color: cor;
+    text-align: alinhamento;
+    font-family: verdana;
+    font-size: 20px;
+}
 ```
