@@ -4,5 +4,5 @@
 
 ### 1.1 Git Add
 
-    * Comando:
-        <code>git add file_path</code>
+* Comando:
+    <code>git add file_path</code>
