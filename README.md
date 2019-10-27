@@ -115,3 +115,24 @@ List é um parâmetro de input que permite que um input de texto tenha opções 
     </form>
 </body>
 ```
+
+### 2.2 CSS
+
+#### 2.2.1 CSS dentro de HTML
+
+Dentro do html é possível definir o estilo de exibição do html usando a tag _style_ e padrões de css.
+
+```html
+<head>
+    <title>Titulo</title>
+    <style>
+        h1, h2 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo grande</h1>
+    <h2>Titulo menor</h2>
+</body>
+```

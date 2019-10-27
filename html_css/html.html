@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <head>
     <title>Meu site!</title>
+    <style media="screen">
+        h1, h2 {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
     <form>
         <div>
+            <h1>LOGIN</h1>
             <input type="text" name="nome" placeholder="Nome">
             <input type="password" name="senha" placeholder="Senha">
         </div>
 
         <div>
+            <h1>COR</h1>
             Cor favorita?
+            <h2>OPCOES</h2>
             <input type="radio" name="color" value="red"> Vermelho
             <input type="radio" name="color" value="green"> Verde
             <input type="radio" name="color" value="blue"> Azul
@@ -19,6 +27,7 @@
         </div>
 
         <div>
+            <h1>PAISES</h1>
             <input name="paises" list="paises" placeholder="Pais">
             <datalist id="paises">
                 <option value="Brasil">
