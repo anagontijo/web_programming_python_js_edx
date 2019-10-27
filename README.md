@@ -177,7 +177,7 @@ classe subclasse {
     text-align: alinhamento;
     font-family: verdana;
     font-size: 20px;
-}```
+}```  
 
 Isso modifica todas as instâncias da subclasse associada a classe, independente do nível de dependencia da subclasse.
 
@@ -187,7 +187,6 @@ classe > subclasse {
     text-align: alinhamento;
     font-family: verdana;
     font-size: 20px;
-}
-```
+}```  
 
 Isso por sua vez modifica apenas a subclasse de classe imediatamente.
