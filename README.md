@@ -127,6 +127,14 @@ J√° OL designa _ordered list_, ou seja, lista ordenada. Usando OL cada um dos t√
 2 Lista II  
 3 Lista III
 
+```HTML
+<ol>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+</ol>
+```
+
 ### 2.2 CSS
 
 #### 2.2.1 CSS dentro de HTML
