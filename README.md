@@ -8,3 +8,5 @@
     ```console
     user@linux:~$ git add file_path
     ```
+
+    Comando para adicionar um arquivo ao _git_, para que suas mudanças sejam registradas no _git_.
