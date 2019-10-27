@@ -24,6 +24,16 @@
         button:hover {
             background-color: red;
         }
+
+        a::before {
+            content: "\21d2 Clique aqui!: ";
+            font-weight: bold;
+        }
+
+        p::selection {
+            color: red;
+            background-color: yellow;
+        }
     </style>
 </head>
 
@@ -67,4 +77,8 @@
     </ol>
 
     <button>Botao!</button>
+
+    <a href="#">link</a>
+
+    <p>Selecione esse texto!</p>
 </body>

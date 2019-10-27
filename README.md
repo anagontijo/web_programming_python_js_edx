@@ -207,4 +207,13 @@ classe:pseudoclasse {
 }
 ```
 
-Isso modifica a aparência da classe quando está nessa pseudoclasse.
+Isso modifica a aparência da classe quando está nessa pseudoclasse. (hover)
+
+```css
+classe::pseudoclasse {
+    content: "conteudo";
+    font-weight: bold;
+}
+```
+
+Isso insere um conteudo na pseudoclasse relativa a cada objeto dessa classe. (before, selection)
