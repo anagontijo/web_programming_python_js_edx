@@ -95,3 +95,23 @@ Um exemplo é uma escolha de de cor favorita:
     </form>
 </body>
 ```
+
+##### 2.1.5.2 List
+
+List é um parâmetro de input que permite que um input de texto tenha opções por padrão.
+
+```html
+<body>
+    <form>
+        <div>
+            <input name="escolha" list="opcoes" placeholder="Escolha Padrao">
+            <datalist id="opcoes">
+                <option value="opcao1">
+                <option value="opcao2">
+                <option value="opcao3">
+                </option>
+            </datalist>
+        </div>
+    </form>
+</body>
+```
