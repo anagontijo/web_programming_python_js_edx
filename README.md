@@ -121,7 +121,7 @@ List é um parâmetro de input que permite que um input de texto tenha opções 
 Para se definir listas em _html_ é possível utilizar as opções __ul__ e __ol__. UL designa _unordered list_, ou seja, lista desordenada. Usando UL são feitos tópicos sem enumeração, como:
 * Lista 1
 * Lista 2
-* Lista 3
+* Lista 3  
 Já OL designa _ordered list_, ou seja, lista ordenada. Usando OL cada um dos tópicos será enumerado:
 1 Lista I
 2 Lista II
