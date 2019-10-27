@@ -37,3 +37,61 @@
 
 * Funcionamento:
     Quando um grupo de _commits_ é enviado para o repositório remoto as mudanças locais se tornam globais.
+
+### 1.4 Git Pull
+
+* Comando:
+    ```console
+    user@linux:~$ git pull
+    ```
+
+    Comando para baixar as alterações feitas no repositório remoto.
+
+* Funcionamento:
+    Quando é realizado um _pull_ as mudanças globais que foram feitas por outras pessoas com acesso ao repositório remoto são trazidas para o repositório local.
+
+### 1.5 Git Branch
+
+* Comando:
+    ```console
+    user@linux:~$ git branch feature
+    ```
+
+    Comando para criar uma _branch_ no repositório local.
+
+* Funcionamento:
+
+
+## 2 - HTML e CSS
+
+### 2.1 - HTML
+
+#### 2.1.1 Header
+
+#### 2.1.2 Nav
+
+#### 2.1.3 Section
+
+#### 2.1.4 Footer
+
+#### 2.1.5 Form
+
+##### 2.1.5.1 Radio
+
+    Radio é um tipo de formulário em que se fornece opções de escolha ao invés de inserção de opção.
+
+    Um exemplo é uma escolha de de cor favorita:
+
+    ```html
+    <body>
+        <form>
+            <div>
+                Cor favorita?
+                <input name="nome" type="radio" value="w">
+                <input name="nome" type="radio" value="x">
+                <input name="nome" type="radio" value="y">
+                <input name="nome" type="radio" value="z">
+            </div>
+        </form>
+    </body>
+    ```
