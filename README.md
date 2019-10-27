@@ -78,20 +78,20 @@
 
 ##### 2.1.5.1 Radio
 
-    Radio é um tipo de formulário em que se fornece opções de escolha ao invés de inserção de opção.
+Radio é um tipo de formulário em que se fornece opções de escolha ao invés de inserção de opção.
 
-    Um exemplo é uma escolha de de cor favorita:
+Um exemplo é uma escolha de de cor favorita:
 
-    ```html
-    <body>
-        <form>
-            <div>
-                Cor favorita?
-                <input name="nome" type="radio" value="w">
-                <input name="nome" type="radio" value="x">
-                <input name="nome" type="radio" value="y">
-                <input name="nome" type="radio" value="z">
-            </div>
-        </form>
-    </body>
-    ```
+```html
+<body>
+    <form>
+        <div>
+            Cor favorita?
+            <input name="nome" type="radio" value="w">
+            <input name="nome" type="radio" value="x">
+            <input name="nome" type="radio" value="y">
+            <input name="nome" type="radio" value="z">
+        </div>
+    </form>
+</body>
+```
