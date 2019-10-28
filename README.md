@@ -169,7 +169,7 @@ classe1, classe2 {
 }
 ```
 
-Isso modifica as classes 1 e 2  de acordo com as definições dadas.
+Isso modifica as classes 1 e 2  de acordo com as definições dadas. Classes podem ser dadas como _h1_, _h2_ caso sejam classes padrão de _html_ ou como _.minha_classe_ se for um nome de classe passado como parametro.
 
 ```css
 classe subclasse {
@@ -216,4 +216,14 @@ classe::pseudoclasse {
 }
 ```
 
-Isso insere um conteudo na pseudoclasse relativa a cada objeto dessa classe. (before, selection)
+Isso insere um conteudo no pseudoelemento relativo a cada objeto dessa classe. (before, selection, after)
+
+```css
+classe subclasse1 + subclasse2 {
+    color: blue;
+}
+```
+
+Por fim, isso define a aparencia de ambas as subclasses.
+
+
