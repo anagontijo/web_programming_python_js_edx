@@ -226,4 +226,52 @@ classe subclasse1 + subclasse2 {
 
 Por fim, isso define a aparencia de ambas as subclasses.
 
+#### 2.2.3 Compatibilidade
 
+É possível definir estilos diferentes de CSS para classes diferentes em medias diferentes, isso é, em telas de computador, celulares, impressões...
+
+Por exemplo, pode ser que em medias que não impressas 2 paragrafos sejam exibidos mas quando se for imprimir apenas o paragrafo 1 deve ser exibido.
+
+```html
+<head>
+    <style>
+        @media print {
+            .screen-only {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Paragrafo 1</p>
+    <p class="screen-only">Paragrafo 2</p>
+</body>
+```
+Também é possível definir a aparencia de acordo com atributos da media. Por exemplo, caso para exibições de largura menor que 500 pixels eu queira que a tela tenha um fundo diferente de que para maiores ou iguais.
+
+```html
+<head>
+    <style>
+        @media (min-width: 500px) {
+            body {
+                background-color: red;
+            }
+        }
+        @media (max-width: 499px) {
+            body {
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Ola</h1>
+    <h2>Essa página é um teste</h2>
+</body>
+```
+
+A linha para que a largura da exibição seja adaptada para a largura do device é
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
