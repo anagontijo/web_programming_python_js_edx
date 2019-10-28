@@ -406,3 +406,9 @@ p {
     border: 5px solid red;
 }
 ```
+
+
+
+# Créditos
+
+Estudo baseado no curso gratuito de Harvard de mesmo nome que o readme, disponível no edX e no youtube (https://www.youtube.com/playlist?list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5).
