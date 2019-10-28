@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Meu site!</title>
-    <style media="screen">
+    <style>
         h1, h2 {
             color: red;
         }
@@ -14,6 +14,7 @@
         input[type="password"] {
             background-color: pink;
         }
+
         button {
             width: 200px;
             height: 100px;
@@ -34,7 +35,68 @@
             color: red;
             background-color: yellow;
         }
+
+        @media : print {
+            .nao_imprima {
+                display : none;
+            }
+        }
+
+        @media (min-width: 500px) {
+            body {
+                background-color: yellow;
+            }
+        }
+        @media (max-width: 499px) {
+            body {
+                background-color: cyan;
+            }
+        }
+
+        .caixas {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .caixas > div {
+            background-color: springgreen;
+            font-size: 20px;
+            margin: 20px;
+            padding: 20px;
+            width: 200px;
+            height: 200px;
+            font-family: monospace;
+        }
+
+        .tabela {
+            background-color: darkgreen;
+            display: grid;
+            padding: 20px;
+            grid-column-gap: 20px;
+            grid-row-gap: 10px;
+            grid-template-columns: 200px auto auto;
+        }
+
+        .item_tabela {
+            background-color: white;
+            font-size: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .espaco_em_branco {
+            height: 500px;
+            background-color: pink;
+        }
+
+        .row > div {
+            padding: 20px;
+            background-color: gray;
+            border-style: double;
+            border-width: 5px;
+        }
     </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
@@ -60,8 +122,8 @@
             <input name="paises" list="paises" placeholder="Pais">
             <datalist id="paises">
                 <option value="Brasil">
-                <option value="Austrália">
-                <option value="Camarões">
+                <option value="Australia">
+                <option value="Camaroes">
                 </option>
             </datalist>
         </div>
@@ -81,4 +143,54 @@
     <a href="#">link</a>
 
     <p>Selecione esse texto!</p>
+
+    <h2 class="nao_imprima"> Esse texto não é visivel em impressão.</h2>
+
+
+    <div class="caixas">
+        <div>Primeira caixa</div>
+        <div>Segunda caixa</div>
+        <div>Terceira caixa</div>
+        <div>Quarta caixa</div>
+        <div>Quinta caixa</div>
+        <div>Sexta caixa</div>
+    </div>
+
+    <div class="espaço_em_branco">
+
+    </div>
+
+    <div class="tabela">
+        <div class="item_tabela">1</div>
+        <div class="item_tabela">2</div>
+        <div class="item_tabela">3</div>
+        <div class="item_tabela">4</div>
+        <div class="item_tabela">5</div>
+        <div class="item_tabela">6</div>
+        <div class="item_tabela">7</div>
+        <div class="item_tabela">8</div>
+        <div class="item_tabela">9</div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-3">
+            Isto são 3 colunas
+        </div>
+        <div class="col-4">
+            Isto são 4 colunas
+        </div>
+        <div class="col-2">
+            Isto são 2 colunas
+        </div>
+        <div class="col-1" >
+            Coluninha de 1
+        </div>
+        <div class="col-1" >
+            Coluninha de 1
+        </div>
+        <div class="col-1" >
+            Coluninha de 1
+        </div>
+    </div>
 </body>
