@@ -380,3 +380,29 @@ Em _Bootstrap_ a página é dividida em _rows_ e cada uma dessas _rows_ é divid
 </body>
 ```
 
+#### 2.2.5 Atributos
+
+##### 2.2.5.1 Bordas
+Alguns atributos relativos a bordas de um objeto são:
+* border-style:
+    Estilo da borda.\\
+    (dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden)
+* border-width:
+    Largura da borda.\\
+    (_x_ px, small, medium, big, [_x_ px, _y_ px, _z_ px, _w_ px])
+* border-color:
+    Cor da borda.\\
+    (nome_da_cor, #ffffff, rgb(0,0,0), transparent, [cor1, cor2, cor3, cor4])
+* border-lado-atributo:
+    Define o atributo para o lado específico, por exemplo, _border-top-style_.
+* border-radius:
+    Define a curvatura dos cantos da borda, de acordo com o raio que gera a curvatura.
+    (_x_ px)
+
+A definição rapida de uma borda é dada pela sequencia de tamanho, estilo e cor. (é possível fazer a definição rapida para cada lado também)
+
+```css
+p {
+    border: 5px solid red;
+}
+```
