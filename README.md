@@ -275,3 +275,77 @@ A linha para que a largura da exibição seja adaptada para a largura do device 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
+##### 2.2.3.1 Flexbox
+
+Quando se tem diferentes larguras de tela e uma estrutura que envolve exibição de itens em largura pela tela pode ser necessário que se faça adaptações para impedir que sejam necessários scrolls desconfortáveis. Para isso se define que o display é _flex_, e outros atributos são usados para definir como o display vai se adaptar a diferentes larguras.
+
+Um exemplo é, com uma sequencia de caixas de texto padrão pode-se querer que as caixas se encaixem de forma diferente de acordo com a largura da tela, exibindo menos caixas por linha de acordo com a disponibilidade de espaço.
+
+```html
+<head>
+    <style>
+        .caixas {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .caixas > div {
+            background-color: springgreen;
+            font-size: 20px;
+            margin: 20px;
+            padding: 20px;
+            width: 200px;
+            height: 200px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="caixas">
+        <div>Primeira caixa</div>
+        <div>Segunda caixa</div>
+        <div>Terceira caixa</div>
+        <div>Quarta caixa</div>
+        <div>Quinta caixa</div>
+        <div>Sexta caixa</div>
+    </div>
+</body>
+```
+
+Outro exemplo é caso se tenha uma tabela com o terceiro campo com espaço sobrando em torno da informação, queremos que esse espaço seja diminuido ou aumentado caso necessário.
+
+```html
+<head>
+    <style>
+        .tabela {
+            background-color: darkgreen;
+            display: grid;
+            padding: 20px;
+            grid-column-gap: 20px;
+            grid-row-gap: 10px;
+            grid-template-columns: 200px 200px auto;
+        }
+
+        .item_tabela {
+            background-color: white;
+            font-size: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="tabela">
+        <div class="item_tabela">1</div>
+        <div class="item_tabela">2</div>
+        <div class="item_tabela">3</div>
+        <div class="item_tabela">4</div>
+        <div class="item_tabela">5</div>
+        <div class="item_tabela">6</div>
+        <div class="item_tabela">7</div>
+        <div class="item_tabela">8</div>
+        <div class="item_tabela">9</div>
+    </div>
+</body>
+```
+
