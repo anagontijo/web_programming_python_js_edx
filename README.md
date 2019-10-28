@@ -349,3 +349,34 @@ Outro exemplo é caso se tenha uma tabela com o terceiro campo com espaço sobra
 </body>
 ```
 
+#### 2.2.4 Bootstrap
+
+_Bootstrap_ é uma biblioteca de _CSS_ que contem layouts e classes predefinidas. Para adicionar o _stylesheet_ de _bootstrap_ basta inserir no head do _html_ a linha:
+
+```html
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+```
+
+##### 2.2.4.1 Rows e columns
+
+Em _Bootstrap_ a página é dividida em _rows_ e cada uma dessas _rows_ é dividida em 12 _columns_. Toda a estrutura do site construído sobre esse _stylesheet_ deve girar em torno destas 12 colunas. Dentro de bootstrap existem classes _row_ e _col=n_ que definem sobre o que se está agindo, por exemplo:
+
+```html
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="row">
+        <div class="col-3" background-color="gray">
+            Isto são 3 colunas
+        </div>
+        <div class="col-4" background-color="magenta">
+            Isto são 4 colunas
+        </div>
+        <div class="col-2" background-color="springgreen">
+            Isto são 2 colunas
+        </div>
+    </div>
+</body>
+```
+
